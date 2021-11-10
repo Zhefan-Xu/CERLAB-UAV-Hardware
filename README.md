@@ -24,6 +24,8 @@
 - Battery: 
   - Charging: charging battery MUST connect the balancer. This will cause the imbalanced voltage in each cell. See this [page](https://www.wattflyer.com/forums/showthread.php?t=31107) for details. 
   - TODO: [Voltage](https://www.quora.com/What-is-the-difference-between-the-nominal-voltage-of-3-7V-and-the-voltage-of-a-cell-of-4-2V-in-lithium-cells) 
+  - TODO: C Rating:
+  - TODO: Energy Density:
 - Compass: 
   - VIO/MoCap: If we want to use the compass as heading estimation with VIO/MoCap, after turning on the camera (e.g. RealSense T265), we need to rotate the drone until the displayed yaw is ```w=1, x=y=z=0```. See reference from the [official documentation](https://docs.px4.io/master/en/ros/external_position_estimation.html) and [github issue](https://github.com/Auterion/VIO/issues/16#issuecomment-856809595).
 - Telemetry: 
