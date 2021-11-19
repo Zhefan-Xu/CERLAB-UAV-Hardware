@@ -43,6 +43,10 @@
 # Unsolved Problems:
 - Camera boot problem: might be related to power?
 - DJI manifold freezes after running octomap and replug in T265.
-- Latency in WIFI transmission.
+- Latency in WIFI transmission. Sometimes automatically disconnected.
+
+# TODO List:
+- Modify camera mount for t265 (angle, hole, position)
+- Test new Nora for ESC calibration and compass
    
 
