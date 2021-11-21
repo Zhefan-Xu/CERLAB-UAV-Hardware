@@ -44,6 +44,8 @@
 
 
 # Unsolved Problems:
+- Warning: sdk version does not match.
+- USB cable warning: 2.0 and 3.0
 - Camera boot problem: might be related to power?
 - DJI manifold freezes after running octomap and replug in T265.
 - Latency in WIFI transmission. Sometimes automatically disconnected.
