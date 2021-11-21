@@ -6,7 +6,7 @@
   - [F330](https://www.amazon.com/Quadcopter-Frame-Aircraft-Accessory-Integrated/dp/B07D6K51DY/ref=sr_1_2?keywords=f330&qid=1636421247&qsid=140-8186632-2531121&s=toys-and-games&sr=1-2&sres=B08L3JT2Q4%2CB07D6K51DY%2CB075DD16LK%2CB0824RHXZN%2CB085W3VM2K%2CB00P23TYW0%2CB08LSVCSZ4%2CB09FB1XF77%2CB017H7E3VK%2CB06ZZQL33X%2CB08PHTLFFS%2CB00YR6ZGHA%2CB00SYGBQGE%2CB09KQNQ6Z7%2CB09DK3K3HM%2CB09GN7CBT9%2CB08538X9LN%2CB08B5TQ8JL%2CB089ZDLV3K%2CB08T5VCKY1)
   - [Q250](https://hobbyking.com/en_us/hobbykingtm-totem-q250-quadcopter-kit.html)
 - Onboard/Companion Computer: 
-  - [DJI Manifold 2C](https://www.dji.com/manifold-2)
+  - [DJI Manifold 2C/G](https://www.dji.com/manifold-2)
   - [Nvidia Xavier NX](https://store.nvidia.com/en-us/jetson/store/?page=1&limit=9&locale=en-us) (Currently out of stock)
 - Flight controller: 
   - [PX4 Pixracer](https://docs.px4.io/v1.12/en/flight_controller/pixracer.html)
@@ -41,6 +41,7 @@
 - Calibration:
 - [CUAV Nora](https://docs.px4.io/v1.12/en/flight_controller/cuav_nora.html):
   - Power A and Power C: Power A is common adc interface, Power C is uavcan battery interface. We should use power A.
+
 
 # Unsolved Problems:
 - Camera boot problem: might be related to power?
