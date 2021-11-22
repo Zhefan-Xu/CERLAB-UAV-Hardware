@@ -37,7 +37,7 @@
   - TODO: ESC firmware  
   - TODO: ESC calibration  
 - T265:
-  - Facing
+  - Facing downward by a certain angle (e.g. 30 - 60 degree) can help increase feature and prevent from view block.
 - Calibration:
 - [CUAV Nora](https://docs.px4.io/v1.12/en/flight_controller/cuav_nora.html):
   - Power A and Power C: Power A is common adc interface, Power C is uavcan battery interface. We should use power A.
