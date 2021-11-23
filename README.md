@@ -49,6 +49,7 @@
 - Camera boot problem: might be related to power?
 - DJI manifold freezes after running octomap and replug in T265.
 - Latency in WIFI transmission. Sometimes automatically disconnected.
+- Propeller Guard??
 
 # TODO List:
 - Modify camera mount for t265 (angle, hole, position)
