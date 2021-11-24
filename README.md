@@ -44,6 +44,7 @@
 
 
 # Unsolved Problems:
+- Battery display problem: always 100%
 - Warning: sdk version does not match.
 - USB cable warning: 2.0 and 3.0
 - Camera boot problem: might be related to power?
