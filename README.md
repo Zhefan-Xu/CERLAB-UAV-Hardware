@@ -40,17 +40,20 @@
   - Facing downward by a certain angle (e.g. 30 - 60 degree) can help increase feature and prevent from view block.
 - Calibration:
 - [CUAV Nora](https://docs.px4.io/v1.12/en/flight_controller/cuav_nora.html):
-  - Power A and Power C: Power A is common adc interface, Power C is uavcan battery interface. We should use power A.
+  - Power A and Power C: Power A is common adc interface, Power C is uavcan battery interface. We should use power C instead of Power A because we use its CAN PMU SE so it support UAVCAN. Also, as mention in their [wiring instruction](https://doc.cuav.net/flight-controller/x7/en/quick-start/quick-start-nora.html), all the parameters have been preconfigured (there is no need to do calibration and change parameter. The minmum voltage is 3.5V and maximum volrage is 4.2 V.
 
 
 # Unsolved Problems:
-- Battery display problem: always 100%
 - Warning: sdk version does not match.
 - USB cable warning: 2.0 and 3.0
 - Camera boot problem: might be related to power?
 - DJI manifold freezes after running octomap and replug in T265.
 - Latency in WIFI transmission. Sometimes automatically disconnected.
 - Propeller Guard??
+
+# Solved Problems:
+- Battery display problem: always 100% (see Nora notes)
+
 
 # TODO List:
 - Modify camera mount for t265 (angle, hole, position)
