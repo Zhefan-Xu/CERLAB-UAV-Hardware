@@ -35,7 +35,7 @@
   - TODO: Wiring
   - TODO: Communication Protocal
   - TODO: ESC firmware  
-  - Purpose for calibration: ESC calibration is actually to find the Minimum&maximum PWM (Pulse-width modulation) value for the flight controller based purely on the battery. It does not require ESC! It is actually a calibration for controller based on battery. 
+  - Purpose for calibration: ESC calibration is actually to find the Minimum&maximum PWM (Pulse-width modulation) value for the flight controller based purely on the battery. It does not require ESC! It is actually a calibration for controller based on battery. After calibration, the parameter related MAX/MIN_PWM is changed.
 - T265:
   - Facing downward by a certain angle (e.g. 30 - 60 degree) can help increase feature and prevent from view block.
 - Calibration:
