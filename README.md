@@ -35,7 +35,7 @@
 - Telemetry: 
   - Baudrate: USB connection can provide a higher [baudrate](https://learn.sparkfun.com/tutorials/serial-communication/rules-of-serial#:~:text=One%20of%20the%20more%20common,fast%20data%20can%20be%20transferred.) which determines the data transmission rate. The default baudrate of MAVLINK is 921600, but DJI manifold uart0 can only support up to 115200. Note the data frequency of ```mavros/local_position/pose``` should be ~30hz for a reasonable communication configuration.
 - ESC [wiring](https://docs.px4.io/master/en/peripherals/pwm_escs_and_servo.html) & [protocal & firmware](https://oscarliang.com/esc-firmware-protocols/) & [calibration](https://docs.px4.io/master/en/advanced_config/esc_calibration.html):
-  - TODO: Wiring
+  - Wiring： battery wire & Servo wire (PWM (color) and GND (black))
   - Communication Protocal: In short, Dshot is the best and latest protocal. From early to latest, we have PWM (1-2 ms latency), Oneshot (0.125-0.25 ms latency), Dshot (less than 0.1 ms latency). 
   - ESC firmware: Common firmware: BLHeli, BLHeli_S, BLHeli_32, SimonK, KISS. BLHeli_S and BLHeli_32 are todays' most common used one 
   - Purpose for calibration: ESC calibration is actually to find the Minimum&maximum PWM (Pulse-width modulation) value for the flight controller based purely on the battery. It does not require ESC! It is actually a calibration for controller based on battery. After calibration, the parameter related MAX/MIN_PWM is changed.
