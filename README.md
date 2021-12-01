@@ -60,7 +60,6 @@
 
 
 # TODO List:
-- Modify camera mount for t265 (angle, hole, position)
-- Test new Nora for ESC calibration and compass
+
    
 
