@@ -60,6 +60,6 @@
 
 
 # TODO List:
-
-   
+1. Test current design
+2. Build the second drone
 
