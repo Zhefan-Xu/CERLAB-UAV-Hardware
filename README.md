@@ -23,7 +23,7 @@
 # Special Notes:
 - Battery: 
   - Charging: charging battery MUST connect the balancer. This will cause the imbalanced voltage in each cell. See this [page](https://www.wattflyer.com/forums/showthread.php?t=31107) for details. 
-  - TODO: [Voltage](https://www.quora.com/What-is-the-difference-between-the-nominal-voltage-of-3-7V-and-the-voltage-of-a-cell-of-4-2V-in-lithium-cells) 
+  - [Voltage](https://www.quora.com/What-is-the-difference-between-the-nominal-voltage-of-3-7V-and-the-voltage-of-a-cell-of-4-2V-in-lithium-cells): 3.7V is the nominal voltage (It is the voltage for long storage).  4.2V is the full voltage. However, in QGroundControl, we can set minimum voltage to a little lower (3.5 V). That is because under load, the measured voltage will be slightly lower than we expected. Optionally, we can set the maximum voltage to a little lower (4.05 V).
   - TODO: C Rating:
   - TODO: Energy Density:
 - Compass: 
