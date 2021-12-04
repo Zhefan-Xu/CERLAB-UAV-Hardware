@@ -24,7 +24,11 @@
 - Battery: 
   - Charging: charging battery MUST connect the balancer. This will cause the imbalanced voltage in each cell. See this [page](https://www.wattflyer.com/forums/showthread.php?t=31107) for details. 
   - [Voltage](https://www.quora.com/What-is-the-difference-between-the-nominal-voltage-of-3-7V-and-the-voltage-of-a-cell-of-4-2V-in-lithium-cells): 3.7V is the nominal voltage (It is the voltage for long storage).  4.2V is the full voltage. However, in QGroundControl, we can set minimum voltage to a little lower (3.5 V). That is because under load, the measured voltage will be slightly lower than we expected. Optionally, we can set the maximum voltage to a little lower (4.05 V).
-  - TODO: C Rating:
+  - C Rating: Simply speaking, it determines the discharge rate:
+    ```
+    (mAh / 1000) x C Rate = Continuous Discharge 
+    Amperag (1600 / 1000) x 10 = 16A
+    ```
   - TODO: Energy Density:
 - Compass: 
   - VIO/MoCap: If we want to use the compass as heading estimation with VIO/MoCap, after turning on the camera (e.g. RealSense T265), we need to rotate the drone until the displayed yaw is ```w=1, x=y=z=0```. See reference from the [official documentation](https://docs.px4.io/master/en/ros/external_position_estimation.html) and [github issue](https://github.com/Auterion/VIO/issues/16#issuecomment-856809595).
