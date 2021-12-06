@@ -64,7 +64,7 @@
 
 
 # TODO List:
-1. Test current design
-2. Build the second drone
-3. 123
+1. Solve the above problems.
+2. Test current design
+3. Build the second drone
 
