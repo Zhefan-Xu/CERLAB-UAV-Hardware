@@ -29,7 +29,7 @@
     (mAh / 1000) x C Rate = Continuous Discharge 
     Amperag (1600 / 1000) x 10 = 16A
     ```
-  - TODO: Energy Density:
+  - Energy Density: Energy density is measured in Watt-hours per kilogram (Wh/kg)
 - Compass: 
   - VIO/MoCap: If we want to use the compass as heading estimation with VIO/MoCap, after turning on the camera (e.g. RealSense T265), we need to rotate the drone until the displayed yaw is ```w=1, x=y=z=0```. See reference from the [official documentation](https://docs.px4.io/master/en/ros/external_position_estimation.html) and [github issue](https://github.com/Auterion/VIO/issues/16#issuecomment-856809595).
   - How to correct [calibrate](https://docs.px4.io/master/en/config/compass.html) compass: You will need to calibrate your compass on first use, and you may need to recalibrate it if the vehicles is ever exposed to a very strong magnetic field, or if it is used in an area with abnormal magnetic characteristics.Also, please calibrate away from any metal (Metal is not always obvious! Avoid calibrating on top of an office table (often contain metal bars) or next to a vehicle. Calibration can even be affected if you're standing on a slab of concrete with uneven distribution of re-bar)
