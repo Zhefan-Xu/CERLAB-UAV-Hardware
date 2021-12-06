@@ -51,7 +51,6 @@
 
 
 # Unsolved Problems:
-- Minimum Thottle too high.
 - Warning: sdk version does not match.
 - USB cable warning: 2.0 and 3.0
 - Camera boot problem: might be related to power?
@@ -61,6 +60,7 @@
 
 # Solved Problems:
 - Battery display problem: always 100% (see Nora notes)
+- Minimum Thottle too high.
 
 
 # TODO List:
