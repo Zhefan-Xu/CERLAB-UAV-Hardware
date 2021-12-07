@@ -51,16 +51,17 @@
 
 
 # Unsolved Problems:
-- Warning: sdk version does not match.
-- USB cable warning: 2.0 and 3.0
-- Camera boot problem: might be related to power?
-- DJI manifold freezes after running octomap and replug in T265.
-- Latency in WIFI transmission. Sometimes automatically disconnected.
+- T265 boot problem: replug first time.
+- HARDWARE_CLOCK. 
+- DJI manifold freezes after running octomap and replug in T265. (TO test)
+- Latency in WIFI transmission. Sometimes automatically disconnected. WIFI lost. 
 - Propeller Guard??
 
 # Solved Problems:
 - Battery display problem: always 100% (see Nora notes)
-- Minimum Thottle too high.
+- Minimum Thottle too high. (PWM_MAIN_MIN/MAX)
+- Warning: sdk version does not match. (Reinstall)
+- USB cable warning: 2.0 and 3.0. (Battery power usb hub)
 
 
 # TODO List:
@@ -68,3 +69,11 @@
 2. Test current design
 3. Build the second drone
 
+# Date: 12/07
+1. Extend camera mount.
+2. Test octomap and wifi. (Check nora QGC)
+3. Manuel test.
+4. Transform tool.
+(5). WIFI
+(6). T265
+(7) HARDWARE_CLOCK
