@@ -53,8 +53,7 @@
 # Unsolved Problems:
 - T265 boot problem: replug first time.
 - HARDWARE_CLOCK. 
-- DJI manifold freezes after running octomap and replug in T265. (TO test)
-- Latency in WIFI transmission. Sometimes automatically disconnected. WIFI lost. 
+- wifi will disconnect when showing the octomap in rviz (get a better wifi maybe)
 - Propeller Guard??
 
 # Solved Problems:
@@ -62,7 +61,7 @@
 - Minimum Thottle too high. (PWM_MAIN_MIN/MAX)
 - Warning: sdk version does not match. (Reinstall)
 - USB cable warning: 2.0 and 3.0. (Battery power usb hub)
-
+- DJI manifold freezes after running octomap and replug in T265. (TO test)
 
 # TODO List:
 1. Solve the above problems.
@@ -70,10 +69,19 @@
 3. Build the second drone
 
 # Date: 12/07
-1. Extend camera mount.
+1. Extend camera mount(done).
 2. Test octomap and wifi. (Check nora QGC)
 3. Manuel test.
 4. Transform tool.
 (5). WIFI
 (6). T265
 (7) HARDWARE_CLOCK
+
+# Date：12/08
+1. buy a wifi router and adapter 
+2. change the size of the octomap 
+3. test the localization without showing octomap (100 mins)
+4. test the transform tool (only z axis difference is usable)
+5. flight test (manual) (3 manual test)
+6. get the gopro for recording 
+
