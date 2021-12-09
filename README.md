@@ -61,7 +61,6 @@
 - Minimum Thottle too high. (PWM_MAIN_MIN/MAX)
 - Warning: sdk version does not match. (Reinstall)
 - USB cable warning: 2.0 and 3.0. (Battery power usb hub)
-- DJI manifold freezes after running octomap and replug in T265. (TO test)
 
 # TODO List:
 1. Solve the above problems.
