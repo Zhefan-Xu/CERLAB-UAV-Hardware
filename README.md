@@ -84,3 +84,9 @@
 5. flight test (manual) (3 manual test)
 6. get the gopro for recording 
 
+# Date: 12/09
+1. HARDWARE_CLOCK.
+2. T265 queue size.
+3. T265 replug solve.
+4. empty warning.
+5. Flight Test. New Camera Mount
