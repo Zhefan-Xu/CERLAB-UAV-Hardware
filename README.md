@@ -90,3 +90,8 @@
 3. T265 replug solve.
 4. empty warning.
 5. Flight Test. New Camera Mount
+
+# Date: 12/10
+1. repair the drone 
+2. adjust min and max to avoid the vibration
+3. propeller guard 
