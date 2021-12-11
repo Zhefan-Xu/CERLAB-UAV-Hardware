@@ -51,6 +51,7 @@
 
 
 # Unsolved Problems:
+- Altitude mode.
 - T265 boot problem: replug first time.
 - HARDWARE_CLOCK. 
 - wifi will disconnect when showing the octomap in rviz (get a better wifi maybe)
