@@ -52,9 +52,6 @@
 
 # Unsolved Problems:
 - Altitude mode.
-- T265 boot problem: replug first time.
-- HARDWARE_CLOCK. 
-- wifi will disconnect when showing the octomap in rviz (get a better wifi maybe)
 - Propeller Guard??
 
 # Solved Problems:
@@ -62,11 +59,14 @@
 - Minimum Thottle too high. (PWM_MAIN_MIN/MAX)
 - Warning: sdk version does not match. (Reinstall)
 - USB cable warning: 2.0 and 3.0. (Battery power usb hub)
+- T265 boot problem: replug first time.(T265 must be connected to computer directly instead of the usb hub)
+- HARDWARE_CLOCK. (l515 parameter use the gobal time )
+- wifi will disconnect when showing the octomap in rviz (get a better wifi maybe)  ( wifi plug in the usb hub with the t265 connected to computer directly)
 
 # TODO List:
 1. Solve the above problems.
-2. Test current design
-3. Build the second drone
+2. Test current design (offboard)
+3. Build the second drone (partially finished)
 
 # Date: 12/07
 1. Extend camera mount(done).
@@ -96,3 +96,8 @@
 1. repair the drone 
 2. adjust min and max to avoid the vibration
 3. propeller guard 
+
+# Date: 12/11
+1. T265 shoud be connect to computer directly (instead of hub)
+2. wifi is more stable than before 
+3. still need to analyse the log 
