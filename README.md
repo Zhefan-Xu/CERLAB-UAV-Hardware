@@ -51,7 +51,7 @@
 
 
 # Unsolved Problems:
-- Altitude mode.
+- Altitude mode. (Hover thottle?)
 - Propeller Guard??
 
 # Solved Problems:
