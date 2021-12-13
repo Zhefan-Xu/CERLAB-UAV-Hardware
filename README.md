@@ -61,7 +61,7 @@
 - USB cable warning: 2.0 and 3.0. (Battery power usb hub)
 - T265 boot problem: replug first time.(T265 must be connected to computer directly instead of the usb hub)
 - HARDWARE_CLOCK. (l515 parameter use the gobal time )
-- wifi will disconnect when showing the octomap in rviz (get a better wifi maybe)  ( wifi plug in the usb hub with the t265 connected to computer directly)
+- wifi will disconnect when showing the octomap in rviz (wifi plug in the usb hub with the t265 connected to computer directly)
 
 # TODO List:
 1. Solve the above problems.
