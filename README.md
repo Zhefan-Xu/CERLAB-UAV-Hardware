@@ -101,3 +101,6 @@
 1. T265 shoud be connect to computer directly (instead of hub)
 2. wifi is more stable than before 
 3. still need to analyse the log 
+
+# Date: 12/14
+TEST PROCEDURE
