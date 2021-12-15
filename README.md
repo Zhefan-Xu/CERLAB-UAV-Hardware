@@ -34,8 +34,6 @@
   - VIO/MoCap: If we want to use the compass as heading estimation with VIO/MoCap, after turning on the camera (e.g. RealSense T265), we need to rotate the drone until the displayed yaw is ```w=1, x=y=z=0```. See reference from the [official documentation](https://docs.px4.io/master/en/ros/external_position_estimation.html) and [github issue](https://github.com/Auterion/VIO/issues/16#issuecomment-856809595).
   - How to correct [calibrate](https://docs.px4.io/master/en/config/compass.html) compass: You will need to calibrate your compass on first use, and you may need to recalibrate it if the vehicles is ever exposed to a very strong magnetic field, or if it is used in an area with abnormal magnetic characteristics.Also, please calibrate away from any metal (Metal is not always obvious! Avoid calibrating on top of an office table (often contain metal bars) or next to a vehicle. Calibration can even be affected if you're standing on a slab of concrete with uneven distribution of re-bar)
 
-
-
 - Telemetry: 
   - Baudrate: USB connection can provide a higher [baudrate](https://learn.sparkfun.com/tutorials/serial-communication/rules-of-serial#:~:text=One%20of%20the%20more%20common,fast%20data%20can%20be%20transferred.) which determines the data transmission rate. The default baudrate of MAVLINK is 921600, but DJI manifold uart0 can only support up to 115200. Note the data frequency of ```mavros/local_position/pose``` should be ~30hz for a reasonable communication configuration.
 - ESC [wiring](https://docs.px4.io/master/en/peripherals/pwm_escs_and_servo.html) & [protocal & firmware](https://oscarliang.com/esc-firmware-protocols/) & [calibration](https://docs.px4.io/master/en/advanced_config/esc_calibration.html):
@@ -49,9 +47,10 @@
 - [CUAV Nora](https://docs.px4.io/v1.12/en/flight_controller/cuav_nora.html):
   - Power A and Power C: Power A is common adc interface, Power C is uavcan battery interface. We should use power C instead of Power A because we use its CAN PMU SE so it support UAVCAN. Also, as mention in their [wiring instruction](https://doc.cuav.net/flight-controller/x7/en/quick-start/quick-start-nora.html), all the parameters have been preconfigured (there is no need to do calibration and change parameter. The minmum voltage is 3.5V and maximum volrage is 4.2 V.
 
+- Altitude Mode:
+  We need to setup the hover throttle properly. Also, we can modify the max and min velocity in MPC parameter. See this link for our issue and [this link](https://discuss.px4.io/t/sudden-jump-in-altitude-mode/25417/4) for [PX4 description](https://docs.px4.io/master/en/flying/)
 
 # Unsolved Problems:
-- Altitude mode. (Hover thottle?)
 - Propeller Guard??
 
 # Solved Problems:
@@ -62,6 +61,7 @@
 - T265 boot problem: replug first time.(T265 must be connected to computer directly instead of the usb hub)
 - HARDWARE_CLOCK. (l515 parameter use the gobal time )
 - wifi will disconnect when showing the octomap in rviz (wifi plug in the usb hub with the t265 connected to computer directly)
+- Altitude mode sudden jump. (Change to a proper hover throttle.)
 
 # TODO List:
 1. Solve the above problems.
