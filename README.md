@@ -105,7 +105,7 @@
 # Date: 12/14
 1. Solved the vibration and hover throttle problem.
 
-# Date 12/15
+# Date: 12/15
 1. Set parameters for max min velocity. 
 2. Test camera view of propeller guard.
 3. Test vibration on 2C drone with manuel. (New propeller and old propeller)
