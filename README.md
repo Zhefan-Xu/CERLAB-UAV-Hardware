@@ -103,4 +103,11 @@
 3. still need to analyse the log 
 
 # Date: 12/14
-TEST PROCEDURE
+1. Solved the vibration and hover throttle problem.
+
+# Date 12/15
+1. Set parameters for max min velocity. 
+2. Test camera view of propeller guard.
+3. Test vibration on 2C drone with manuel. (New propeller and old propeller)
+4. Test altitude mode with correct hover throttle.
+5. Test new wifi router.
