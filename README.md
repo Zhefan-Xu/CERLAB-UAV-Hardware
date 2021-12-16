@@ -112,6 +112,6 @@
 4. Test altitude mode with correct hover throttle.
 5. Test new wifi router.
 
-# Date: 12/15
+# Date: 12/16
 1. Propeller guard.
 2. PID tuning.
