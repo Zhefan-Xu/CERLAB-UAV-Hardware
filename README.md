@@ -53,6 +53,7 @@
 # Unsolved Problems:
 - Propeller Guard??
 
+
 # Solved Problems:
 - Battery display problem: always 100% (see Nora notes)
 - Minimum Thottle too high. (PWM_MAIN_MIN/MAX)
@@ -115,3 +116,5 @@
 # Date: 12/16
 1. Propeller guard.
 2. PID tuning.
+
+# Date：12/17
