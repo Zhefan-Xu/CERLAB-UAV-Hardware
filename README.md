@@ -118,6 +118,11 @@
 2. PID tuning.
 
 # Date：12/17
-
+1. PID tuning
 
 # Date: 12/18
+1. Change to default parameters -> check vibration metrics (if good, use 7 inch propeller may help)
+2. Increase PWM -> check vibration metrics 
+3. Change to F330 frame -> check vibration metrics
+4. Decrease PWM -> check vibration metrics
+5. If DJI frame is better, tune PID. if not, use 7 inch propeller.
