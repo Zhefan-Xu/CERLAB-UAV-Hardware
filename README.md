@@ -120,7 +120,7 @@
 # Date：12/17
 1. PID tuning
 
-# Date: 12/18
+# Date: 12/20
 1. Change to default parameters -> check vibration metrics (if good, use 7 inch propeller may help)
 2. Increase PWM -> check vibration metrics 
 3. Change to F330 frame -> check vibration metrics
