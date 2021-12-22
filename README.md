@@ -125,3 +125,6 @@
 
 # Date: 12/21:
 1. Altitude mode.
+
+# Date: 12/22:
+1. Build 2nd/3rd drone.
