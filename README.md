@@ -129,3 +129,6 @@
 # Date: 12/22:
 1. Build 2nd/3rd drone.
 2. Test software for 2nd drone.
+
+# DateL 12/23:
+1. Test software for 2nd drone.
