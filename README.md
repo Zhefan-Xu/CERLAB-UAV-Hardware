@@ -130,5 +130,11 @@
 1. Build 2nd/3rd drone.
 2. Test software for 2nd drone.
 
-# DateL 12/23:
+# Date: 12/23:
 1. Test software for 2nd drone.
+
+# Date: 12/27:
+(1. Manuel flight test)
+1. Test recording.
+2. Prepare shipping. (Item + Fedex) + Prepare test space
+3. Coding (Robot explore) + Reconstruction
