@@ -134,7 +134,12 @@
 1. Test software for 2nd drone.
 
 # Date: 12/27:
-(1. Manuel flight test)
+(1. Manual flight test)
 1. Test recording.
 2. Prepare shipping. (Item + Fedex) + Prepare test space
 3. Coding (Robot explore) + Reconstruction
+
+# Date: 12/28:
+0. Calibration Demo tutorial + shipping.
+1. Manual flight + Altitude flight.
+2. Offboard mode.
