@@ -143,3 +143,8 @@
 0. Calibration Demo tutorial + shipping.
 1. Manual flight + Altitude flight.
 2. Offboard mode.
+
+# Date: 12/29
+1. Eigen upgrade -> robot explorer compile.
+2. offboard.
+3. Bag recording.
