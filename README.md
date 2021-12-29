@@ -147,4 +147,4 @@
 # Date: 12/29
 1. Eigen upgrade -> robot explorer compile.
 2. offboard.
-3. Bag recording.
+3. Bag recording (Rviz Marker).
