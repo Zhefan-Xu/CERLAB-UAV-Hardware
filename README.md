@@ -148,3 +148,7 @@
 1. Eigen upgrade -> robot explorer compile.
 2. offboard.
 3. Bag recording (Rviz Marker).
+
+# Date: 12/30:
+1. Change parameter (distance to wall)
+2. More test with rosbag.
