@@ -152,3 +152,8 @@
 # Date: 12/30:
 1. Change parameter (distance to wall)
 2. More test with rosbag.
+
+# Date: 12/31:
+1. Distance
+2. ROS bag
+
