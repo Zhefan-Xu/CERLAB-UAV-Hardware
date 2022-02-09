@@ -130,5 +130,32 @@
 1. Build 2nd/3rd drone.
 2. Test software for 2nd drone.
 
-# DateL 12/23:
+# Date: 12/23:
 1. Test software for 2nd drone.
+
+# Date: 12/27:
+(1. Manual flight test)
+1. Test recording.
+2. Prepare shipping. (Item + Fedex) + Prepare test space
+3. Coding (Robot explore) + Reconstruction
+
+# Date: 12/28:
+0. Calibration Demo tutorial + shipping.
+1. Manual flight + Altitude flight.
+2. Offboard mode.
+
+# Date: 12/29
+1. Eigen upgrade -> robot explorer compile.
+2. offboard.
+3. Bag recording (Rviz Marker).
+
+# Date: 12/30:
+1. Change parameter (distance to wall)
+2. More test with rosbag.
+
+# Date: 12/31:
+1. Distance
+2. ROS bag
+
+# Date: 1/1:
+1. Packing.
