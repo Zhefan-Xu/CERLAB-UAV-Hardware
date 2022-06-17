@@ -1,4 +1,4 @@
-# building_px4_quadcopter
+# CERLAB UAV HARDWARE
 
 
 # Hardware:
