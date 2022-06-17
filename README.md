@@ -19,8 +19,11 @@
   - [USB UART serial port converter](https://www.amazon.com/DSD-TECH-SH-U09C2-Debugging-Programming/dp/B07TXVRQ7V/ref=sr_1_3?crid=2ZVK4AYT03PDX&dchild=1&keywords=short+uart&qid=1635992461&qsid=144-8949687-4547914&sprefix=short+uart+%2Caps%2C73&sr=8-3&sres=B07J64TGS3%2CB07RBKCW3S%2CB07TXVRQ7V%2CB07R8BQYW1%2CB00LODGRV8%2CB00IJXZQ7C%2CB07D6LLX19%2CB07D9R5JFK%2CB01N47LXRA%2CB07R45QJVR%2CB00LZVEQEY%2CB08HLSS5T4%2CB075N82CDL%2CB08FBDTP5G%2CB07WX2DSVB%2CB014GZTCC6).
 
 - ESC:
-  -[35A ESC](https://www.amazon.com/ICQUANZX-Electronic-Controller-Multicopter-Quadcopter/dp/B081YZKPWC/ref=sr_1_8?crid=1SWVLLN5QQJRM&keywords=drone+esc&qid=1655498920&sprefix=drone+esc%2Caps%2C69&sr=8-8)
-  
+  [35A ESC](https://www.amazon.com/ICQUANZX-Electronic-Controller-Multicopter-Quadcopter/dp/B081YZKPWC/ref=sr_1_8?crid=1SWVLLN5QQJRM&keywords=drone+esc&qid=1655498920&sprefix=drone+esc%2Caps%2C69&sr=8-8)
+
+- Motor:
+  [2208 Xing Motor](https://www.amazon.com/iFlight-1800KV-Brushless-Quadcopter-unibell/dp/B07XYYRWGP/ref=sr_1_1_sspa?crid=F4GDMP4GV0LO&keywords=2208+motor&qid=1655499173&sprefix=2208+motor%2Caps%2C70&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNDNVMVVRUUk2MFVDJmVuY3J5cHRlZElkPUExMDE5ODA0MTkwWlFOVVNBM0ZORyZlbmNyeXB0ZWRBZElkPUEwODE3NjI1NjZGRkpLSzZNRjJVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
+ 
 - LIPO Battery:
   
 
